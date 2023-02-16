@@ -70,6 +70,6 @@
 		}
 	},
 	"lint-staged": {
-		"*.ts(x)?": "eslint --ext .ts"
+		"*.ts(x)?": "lint --ext .ts"
 	}
 }
