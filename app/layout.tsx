@@ -1,4 +1,5 @@
 import './globals.css';
+import 'server-only';
 
 import type { Metadata } from 'next';
 

@@ -2,7 +2,11 @@ import 'server-only';
 
 import Image from 'next/image';
 
-export default function Home() {
+import TodoService from './_libs/_common/_services/todo.service';
+
+export default async function Home() {
+  const todos = await TodoService.getTodos();
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
@@ -32,7 +36,9 @@ export default function Home() {
           width={180}
         />
       </div>
-
+      {todos.map((todo) => (
+        <p key={todo.id}>{todo.title}</p>
+      ))}
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"

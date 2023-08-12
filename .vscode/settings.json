@@ -6,7 +6,7 @@
   },
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
-    "source.organizeImports": false
+    "source.organizeImports": true
   },
   "typescript.tsdk": "node_modules/typescript/lib",
   "eslint.validate": ["typescript", "typescriptreact", "json", "jsonc", "json5"]
