@@ -8,5 +8,6 @@
     "source.fixAll": true,
     "source.organizeImports": false
   },
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "eslint.validate": ["typescript", "typescriptreact", "json", "jsonc", "json5"]
 }

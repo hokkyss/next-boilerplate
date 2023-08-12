@@ -1,13 +1,4 @@
 {
-  "name": "@hokkyss/next-boilerplate",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
   "dependencies": {
     "autoprefixer": "10.4.14",
     "client-only": "^0.0.1",
@@ -29,6 +20,7 @@
     "eslint-config-alloy": "^5.1.1",
     "eslint-config-next": "13.4.13",
     "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-jsonc": "^2.9.0",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-perfectionist": "^1.5.1",
     "eslint-plugin-prettier": "^5.0.0",
@@ -37,5 +29,14 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
     "prettier": "^3.0.1"
-  }
+  },
+  "name": "@hokkyss/next-boilerplate",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "version": "0.1.0"
 }
