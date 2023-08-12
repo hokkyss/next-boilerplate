@@ -16,5 +16,5 @@ Some things that could be inside `_client` are:
 
 0. It extends `_libs` conventions.
 1. `use client` directive must be at the very top of each file.
-2. You are recommended to import `client-only` package. This is not enforced though.
+2. You are recommended to import `client-only` package. This is not enforced though as the reason is simply uniformity.
 3. You may only import from another `_client` or `_common`
