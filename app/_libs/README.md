@@ -35,3 +35,4 @@ You may add more folders, but be sure to make conventions with the folders. At t
 
 1. All folders must follow Next private folder naming convention (prefixing the folder with `_`).
 2. All folders and files follows `kebab-case` naming convention, e.g. `_rest-api/` and `login-form.tsx`.
+3. Granularity is the key
